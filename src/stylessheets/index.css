@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  background: #202024;
+  font-family: sans-serif;
+  font-size: 100%;
+}
+div{
+  box-sizing: border-box
+}
+section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+section div{
+  flex: 0 0 auto;
+}
+
+section aside{
+  flex: 1 0 auto;
+  align-self: normal;
+  overflow:scroll;
+  padding-top: 10px;
+}

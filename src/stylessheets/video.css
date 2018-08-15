@@ -1,0 +1,70 @@
+.video{
+  background: #2c2c32;
+  text-align: center;
+  border-radius: 4px;
+  flex: 0 0 30%;
+  align-self: stretch;
+  margin-bottom: 20px;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  max-width: 80em;
+  margin: 0 auto;
+}
+.info h5{
+  margin: 0;
+  color: #fff;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0 0 1em 0;
+}
+h5 p{
+  font-size: 11px;
+  color: green;
+}
+.info button{
+  height: 40px;
+  font-size: inherit;
+  height: 40px;
+    background-color: #70c7be;
+    font-size: inherit;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+.info p{
+  font-size: 1em;
+  color:rgba(255, 255, 255, 0.75);
+
+}
+.like{
+  background: url('./like.svg') center no-repeat;
+  display: inline-block;
+  width:20px;
+  height: 20px;
+  background-size: cover;
+}
+aside .video iframe{
+  flex: 1 0 auto;
+  border:none;
+}
+.video-list{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  height: 50vh;
+  overflow: scroll;
+}
+.loading{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(255,255,255) url('./preloader.gif') center no-repeat;
+  overflow: hidden;
+}

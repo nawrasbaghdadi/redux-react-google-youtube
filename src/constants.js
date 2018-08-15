@@ -1,0 +1,11 @@
+const constants = {
+    GEO_CHANGED: "GEO_CHANGED",
+    VIDEO_LIKE: "VIDEO_LIKE" ,
+    FETCH_VIDEOS : 'FETCH_VIDEOS',
+    VIDEO_LIST_UPDATE : 'VIDEO_LIST_UPDATE', 
+    DONE_FETCHING :'DONE_FETCHING',
+    ADD_ERROR: "ADD_ERROR",
+	CLEAR_ERROR: "CLEAR_ERROR",
+}
+
+export default constants

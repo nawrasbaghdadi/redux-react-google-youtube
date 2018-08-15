@@ -1,0 +1,35 @@
+{
+    "allVideos" :{
+        "fetching":false,
+        "videoList":[ 
+            {
+            "id":{"videoId":"mgKWhgpA-OY"},
+            "numberOfLikes":10,
+            "snippet":{
+                "title" :"Epic Off Road [ 4x4 ] Fails Compilation / 2018",
+                "description":"Only Epic Off road Truck Fails -  4x4 Extreme Compilation 2018"
+            }
+            },
+            {
+            "id":{"videoId":"tG9Ot6QL9ug"},
+            "numberOfLikes":5,
+            "snippet":{
+                "title" :"[OFF ROAD] Jeep Cherokee XJ 2.5td on 35 inch tires",
+                "description":"Pentru colaborări : finegari_ionut@yahoo.com"
+            }
+            },
+            {
+            "id":{"videoId":"Sc-k3KCDjkQ"},
+            "numberOfLikes":12,
+            "snippet":{
+                "title" :"A Thank You To Jeep Cherokee Drivers & Sweet Wheeling Action! ",
+                "description":"Jeep Cherokee drivers are incredible to watch."
+            }
+            }
+        ]},     
+    "marker": {
+        "lat":52.520008,
+        "lng":13.404954
+    },
+    "errors": []
+}

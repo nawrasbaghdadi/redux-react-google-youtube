@@ -1,0 +1,26 @@
+div.show-errors {
+    width: 100%;
+    font-size: 1.5em;
+}
+
+div.show-errors div {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 0;
+    background-color: red;
+    color: white;
+    font-family: verdana, sans-serif;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 1em;
+}
+
+div.show-errors div a {
+    font-size: 2em;
+ 
+}
