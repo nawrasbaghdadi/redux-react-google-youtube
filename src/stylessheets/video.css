@@ -1,4 +1,4 @@
-.video{
+.video {
   background: #2c2c32;
   text-align: center;
   border-radius: 4px;
@@ -6,7 +6,8 @@
   align-self: stretch;
   margin-bottom: 20px;
 }
-.info{
+
+.info {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -14,44 +15,50 @@
   max-width: 80em;
   margin: 0 auto;
 }
-.info h5{
+
+.info h5 {
   margin: 0;
   color: #fff;
   font-weight: 400;
   line-height: 1.5;
   margin: 0 0 1em 0;
 }
-h5 p{
+
+h5 p {
   font-size: 11px;
   color: green;
 }
-.info button{
+
+.info button {
   height: 40px;
   font-size: inherit;
   height: 40px;
-    background-color: #70c7be;
-    font-size: inherit;
-    color: #fff;
-    border: none;
-    outline: none;
+  background-color: #70c7be;
+  font-size: inherit;
+  color: #fff;
+  border: none;
+  outline: none;
 }
-.info p{
-  font-size: 1em;
-  color:rgba(255, 255, 255, 0.75);
 
+.info p {
+  font-size: 1em;
+  color: rgba(255, 255, 255, 0.75);
 }
-.like{
+
+.like {
   background: url('./like.svg') center no-repeat;
   display: inline-block;
-  width:20px;
+  width: 20px;
   height: 20px;
   background-size: cover;
 }
-aside .video iframe{
+
+aside .video iframe {
   flex: 1 0 auto;
-  border:none;
+  border: none;
 }
-.video-list{
+
+.video-list {
   position: relative;
   display: flex;
   flex-direction: row;
@@ -61,10 +68,11 @@ aside .video iframe{
   height: 50vh;
   overflow: scroll;
 }
-.loading{
+
+.loading {
   width: 100%;
   height: 100%;
   position: absolute;
-  background: rgba(255,255,255) url('./preloader.gif') center no-repeat;
+  background: rgba(255, 255, 255) url('./preloader.gif') center no-repeat;
   overflow: hidden;
 }
